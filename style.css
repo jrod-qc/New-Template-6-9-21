@@ -1,0 +1,805 @@
+@font-face {
+    font-family: AvenirFont;
+    src: url(fonts/Avenir.ttc);
+}
+
+a,
+p,
+li {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6em;
+    font-size: 1.2em;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: AvenirFont;
+}
+
+
+/* This is the Nav Section */
+
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+}
+
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-list {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-phone-number {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgba(0, 0, 0, 0.605) url("images/qc-install-trident-attic-opening.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title-section>h2 {
+    text-align: center;
+}
+
+
+/* This is the Hero Section */
+
+.hero-section-wrapper-text-content {
+    width: 80%;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+
+.hero-section-wrapper-text-content>h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.hero-cta-btn {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 300px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ea2027;
+    font-size: 1.2em;
+    margin: 20px 0 0 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.hero-cta-btn:hover {
+    background-color: #c7191f;
+}
+
+
+/* This is the benefits Section */
+
+.benefits-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.benefit-box {
+    width: 45%;
+    margin: 0;
+}
+
+.benefit-box>p {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+/* This is the Video Section */
+
+.video-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.201) url("images/video-poster-2.png");
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 370px;
+}
+
+.video-icon>p {
+    font-size: 5em;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    color: #fff;
+}
+
+.video-icon>p:hover {
+    color: #c7191f;
+}
+
+.title-section {
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+.title-section>h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.benefits-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.benefits-items {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benefit-description {
+    padding: 0 50px;
+}
+
+
+/* This is the Request Section */
+
+.request-consultation-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7191f;
+    padding: 100px 0;
+}
+
+.request-consultation-box>.wrapper>.title-section {
+    color: #fff;
+}
+
+.request-consultation-text-content {
+    text-align: center;
+}
+
+.request-consultation-text-content>p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#request-btn {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 300px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0066b3;
+    font-size: 1.2em;
+    margin: 70px auto 0 auto;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    text-align: center;
+}
+
+
+/* This is the Testimonials Section */
+
+.testimonials-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.testimonials-box>.title-section {
+    color: #373737;
+}
+
+.testimonials-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    height: 300px;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 5px #e2e2e2;
+}
+
+.testimonial-img-box {
+    width: 30%;
+}
+
+.testimonial-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 5px 5px 5px #e2e2e2;
+    margin: 0 auto;
+}
+
+.testimonial-img>img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.testimonial {
+    width: 65%
+}
+
+.testimonial-name {
+    text-align: center;
+}
+
+
+/* This is the Badge Section */
+
+.badge-box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+    padding: 100px 0;
+}
+
+.badge-box>.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.badge-item {
+    width: 25%;
+}
+
+
+/* This is the Stats Box  */
+
+.stats-box {
+    width: 100%;
+    height: 500px;
+    padding: 200px 0;
+    background: rgb(0 0 0 / 73%) url(images/trident-lifestyle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.stats-box>.wrapper {
+    margin: 0 auto;
+}
+
+.stats-box>.wrapper>.title-section>h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.stats-item {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.stats-item>p {
+    width: 80%;
+    color: #fff;
+}
+
+.stats-item>h3 {
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* This is the Benefits Section */
+
+.benefits-section-box {
+    padding: 100px 0;
+}
+
+.benefits-section-box>.wrapper>.title-section>p {
+    text-align: center;
+    padding: 10px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.benefits-section-box>.wrapper>.title-section {
+    padding-bottom: 100px;
+}
+
+.benefits-items-box {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.benefits-items-box>h3 {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.benefits-items-box>p {
+    width: 90%;
+    padding-top: 10px;
+}
+
+
+/* This is the How It Works Section */
+
+.how-it-works-box {
+    background-color: #f9f9f9;
+}
+
+.how-it-works-box>.wrapper>.how-it-works-item>.title-section {
+    padding: 0;
+}
+
+.how-it-works-item>img {
+    width: 100%;
+}
+
+.how-it-works-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.how-it-works-list>li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    list-style: none;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+.how-it-works-item {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.how-it-works-nums:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 10%;
+}
+
+.how-it-works-nums:nth-child(2) {
+    width: 90%;
+}
+
+
+/* This is the Products */
+
+
+/* Trident Product */
+
+.trident-title-section {
+    padding: 100px 0;
+}
+
+.trident-title-section>.title-section {
+    padding: 0;
+}
+
+.trident-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.899) url("images/trident-pro.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.trident-side {
+    width: 45%;
+}
+
+.trident-side>.title-section {
+    padding: 0;
+}
+
+.trident-side>img:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.trident-side>img:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.trident-list {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.trident-list>li {
+    list-style: none;
+}
+
+.trident-list>li>i {
+    color: green;
+}
+
+
+/* Stealth Products */
+
+.stealth-title-section {
+    padding: 100px 0;
+}
+
+.stealth-title-section>.title-section {
+    padding: 0;
+}
+
+.stealth-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.899) url("images/stealth-pro.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.stealth-side {
+    width: 45%;
+}
+
+.stealth-side>.title-section {
+    padding: 0;
+}
+
+.stealth-side>img:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.stealth-side>img:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.stealth-list {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.stealth-list>li {
+    list-style: none;
+}
+
+.stealth-list>li>i {
+    color: green;
+}
+
+
+/* RF Controller Products */
+
+.rf-controller-title-section {
+    padding: 100px 0;
+}
+
+.rf-controller-title-section>.title-section {
+    padding: 0;
+}
+
+.rf-controller-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.899) url("images/stealth-pro.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.rf-controller-side {
+    width: 45%;
+}
+
+.rf-controller-side>.title-section {
+    padding: 0;
+}
+
+.rf-controller-side>img:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.rf-controller-side>img:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.rf-controller-list {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.rf-controller-list>li {
+    list-style: none;
+}
+
+.rf-controller-list>li>i {
+    color: green;
+}
+
+
+/* This is the ROI Section */
+
+.roi-box {
+    padding: 100px 0;
+}
+
+.roi-box>.wrapper>img {
+    width: 100%;
+}
+
+
+/* This is the Tab Section  */
+
+.tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 10px;
+}
+
+.tab-nav {
+    display: flex;
+    width: 100%;
+}
+
+.tab-nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.tab-nav>ul>li {
+    list-style: none;
+    background-color: #ea252c;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 2px;
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0;
+    -webkit-border-radius: 5px 5px 0px 0;
+    -moz-border-radius: 5px 5px 0px 0;
+    -ms-border-radius: 5px 5px 0px 0;
+    -o-border-radius: 5px 5px 0px 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.tab-nav>ul>li:hover {
+    background-color: #c10909;
+}
+
+.content-whf-1,
+.content-whf-2,
+.content-whf-3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-whf-2,
+.content-whf-3 {
+    display: none;
+}
+
+table {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid rgb(233, 233, 233);
+    padding: 10px;
+}
+
+@media only screen and (max-width:414px) {
+    .tab-nav>ul>li {
+        width: 22%;
+        font-size: .8em;
+        text-align: center;
+    }
+    td {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .tab-nav>ul>li {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .tab-nav>ul>li {
+        width: 18%;
+    }
+}
