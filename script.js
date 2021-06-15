@@ -496,3 +496,42 @@ function onAcKwhSelect() {
         alert("Please Select KWH");
     }
 }
+
+
+// This is the modal Content
+
+var modalBox = document.getElementById("modal-box");
+var modalExitBtn = document.getElementById("modal-exit-btn");
+var heroBtn = document.getElementById("hero-cta-btn");
+var requestBtn = document.getElementById("request-btn");
+var lastFormBtn = document.getElementById("last-form-btn");
+
+
+heroBtn.addEventListener("click", function() {
+    modalBox.style.display = "flex";
+});
+requestBtn.addEventListener("click", function() {
+    modalBox.style.display = "flex";
+});
+
+lastFormBtn.addEventListener("click", function() {
+    modalBox.style.display = "flex";
+});
+
+modalExitBtn.addEventListener("click", function() {
+    modalBox.style.display = "none";
+});
+
+// This is the Video Modal
+
+var videoModal = document.getElementById("video-modal-box");
+var videoBtn = document.getElementById("video-icon");
+var videoModalExitBtn = document.getElementById("video-modal-exit-btn");
+
+videoBtn.addEventListener("click", function() {
+    videoModal.style.display = "flex";
+});
+
+videoModalExitBtn.addEventListener("click", function() {
+    videoModal.style.display = "none";
+});

@@ -11,6 +11,38 @@
 </head>
 
 <body>
+    <!-- This is the Video Modal -->
+    <div id="video-modal-box">
+        <div class="wrapper">
+            <div class="video-modal-item">
+                <div class="video-modal-exit-btn-box">
+                    <a href="javascript:void(0)" id="video-modal-exit-btn"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="video-modal-content">
+
+                    <p>{The Video Goes Here}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- This is the Modal -->
+    <div id="modal-box">
+        <div class="wrapper">
+            <div class="modal-item">
+                <div class="modal-exit-btn-box">
+                    <a href="javascript:void(0)" id="modal-exit-btn"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="modal-content">
+                    <h2>Receive your special</h2>
+                    <h2>whole house fan deal today!</h2>
+                    <p>{Form Goes Here}</p>
+                    <h3>* We won't sell or use your</h3>
+                    <h3>information outside your free consultation.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- This si the Nav Section -->
     <div class="nav">
         <div class="nav-wrapper">
@@ -22,7 +54,7 @@
                     <img src="images/arrow-icon.png" alt="">
                 </div>
                 <div class="nav-phone-and-text">
-                    <a class="nav-phone-number" href="#"><i class="fas fa-phone-alt"></i> 951-777-9999</a>
+                    <a class="nav-phone-number" href="tel:951-777-9999"><i class="fas fa-phone-alt"></i> 951-777-9999</a>
                     <h2>Call Us Today!</h2>
                 </div>
             </div>
@@ -34,7 +66,7 @@
             <div class="hero-section-wrapper-text-content">
                 <h1>STOP OVERSPENDING ON AIR <br>CONDITIONING COOLING COSTS</h1>
                 <p>If you’re spending too much on home cooling, you’re not alone. we’ve got <br>the energy saving solution for you. Get your free consultation today!</p>
-                <a class="hero-cta-btn" href="#">Free Consultation</a>
+                <a id="hero-cta-btn" href="javascript:void(0)">Free Consultation</a>
             </div>
         </div>
     </div>
@@ -50,7 +82,7 @@
 
             <div class="benefit-box">
                 <div class="video-box">
-                    <div class="video-icon">
+                    <div id="video-icon">
                         <p><i class="fas fa-play-circle"></i></p>
                     </div>
                 </div>
@@ -88,14 +120,15 @@
             </div>
             <div class="request-consultation-text-content">
                 <p>Get a QuietCool whole house fan system installed in your home, request for a free consultation right now!</p>
-                <a id="request-btn" href="javascript:void(0);">FREE CONSULTATION</a>
+                <a id="request-btn" href="javascript:void(0)">FREE CONSULTATION</a>
             </div>
         </div>
     </div>
     <!-- This is the Testimonials -->
     <div class="testimonials-box">
         <div class="title-section">
-            <h2>QuietCool can improve the way you live indoors</h2>
+            <h2>QuietCool can improve</h2>
+            <h2>the way you live indoors</h2>
         </div>
         <div class="wrapper">
             <div class="testimonials-items">
@@ -352,6 +385,7 @@
                             </div>
                         </div>
                     </div>
+                    <p class="disclosure">* System Pricing may vary depending on the size of your home.</p>
                 </div>
                 <div class="trident-side">
                     <div class="title-section">
@@ -461,6 +495,7 @@
                             </div>
                         </div>
                     </div>
+                    <p class="disclosure">* System Pricing may vary depending on the size of your home.</p>
                 </div>
                 <div class="stealth-side">
                     <div class="title-section">
@@ -490,7 +525,9 @@
                 <div class="rf-controller-side">
                     <img src="images/QuietCool Logo - No Tagline.webp" alt="QuietCool Logo">
                     <img src="images/RF-KIT-BUNDLE.webp" alt="Trident Fan">
+
                 </div>
+
                 <div class="rf-controller-side">
                     <div class="title-section">
                         <h2>QuietCool Wireless RF</h2>
@@ -655,7 +692,7 @@
         <div class="wrapper">
             <div class="avoid-spending-item">
                 <div class="title-section">
-                    <h1>Avoid overspeanding on air</h1>
+                    <h1>Avoid overspending on air</h1>
                     <h1>conditioning cost</h1>
                 </div>
 
@@ -700,7 +737,7 @@
             <div class="title-section">
                 <h1>WHAT ARE YOU WAITING FOR? </h1>
                 <h1>START LIVING HEALTHIER IN YOUR HOME</h1>
-                <a class="last-form-btn" href="javascript:void(0)">GET YOUR FREE QUOTE TODAY</a>
+                <a id="last-form-btn" href="javascript:void(0)">GET YOUR FREE QUOTE TODAY</a>
             </div>
         </div>
     </div>
