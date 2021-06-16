@@ -35,6 +35,10 @@ var sliderDayRangeResults = document.getElementById("slider-day-results");
 var sliderMonthResults = document.getElementById("slider-month-results");
 var sliderYearResults = document.getElementById("slider-year-results");
 
+// var hmysDayResult = document.getElementById("hmys-day-result");
+// var hmysMonthResult = document.getElementById("hmys-month-result");
+// var hmysYearResult = document.getElementById("hmys-year-result");
+
 // This is the Template for the fan Object
 
 function fan(model, watts, kwh, kwhPrice) {
@@ -43,6 +47,11 @@ function fan(model, watts, kwh, kwhPrice) {
     this.kwh = kwh;
     this.kwhPrice = kwhPrice;
 }
+
+
+
+
+
 
 // this is the Fan Selection
 function onFanSelect() {
@@ -67,6 +76,7 @@ function onFanSelect() {
 function onTridentSelect() {
     // This is the Model 1.5
     var tridentSelection = document.getElementById("trident-models").value;
+
     if (tridentSelection == "1.5") {
         document.getElementById("slider-and-results-wrapper").style.display = "flex";
 
@@ -111,8 +121,6 @@ function onTridentSelect() {
 
                 // This is for the Year
                 sliderYearResults.innerHTML = "$" + Math.round(trident.watts / trident.kwh * this.value * 365 * trident.kwhPrice * 100) / 100;
-
-
             }
             // This is the Model 3.3
     } else if (tridentSelection == "3.3") {
@@ -245,6 +253,7 @@ function onTridentSelect() {
 function onStealthSelect() {
     // This is the Model 1.5
     var stealthSelection = document.getElementById("stealth-models").value;
+
     if (stealthSelection == "1.5") {
         document.getElementById("slider-and-results-wrapper").style.display = "flex";
 
@@ -437,6 +446,7 @@ function onAcKwhSelect() {
         sliderDayRangeResultsAC.innerHTML = "$" + 0;
         sliderMonthRangeResultsAC.innerHTML = "$" + 0;
         sliderYearRangeResultsAC.innerHTML = "$" + 0;
+
         sliderHoursRangeAC.oninput = function() {
             sliderHoursRangeResultsAC.innerHTML = this.value;
 
@@ -498,6 +508,20 @@ function onAcKwhSelect() {
 }
 
 
+
+// function subtract() {
+//     var sliderDayRangeResult = parseFloat(document.getElementById("slider-day-results").textContent);
+//     var sliderDayRangeResultAC = parseFloat(document.getElementById("slider-day-results-ac").textContent);
+
+//     var hmysDayResult = document.getElementById("hmys-day-result");
+
+//     hmysDayResult.innerHTML = Math.round(sliderDayRangeResult - sliderDayRangeResultAC * 100) / 100;
+// }
+
+
+
+
+
 // This is the modal Content
 
 var modalBox = document.getElementById("modal-box");
@@ -543,9 +567,9 @@ var slideUpFooter = document.getElementById("slide-up-footer");
 var slideUpExitBtn = document.getElementById("slide-up-exit-btn");
 
 footerFormBtn.addEventListener("click", function() {
-    slideUpFooter.style.bottom = "0";
+    slideUpFooter.style.top = "0";
 });
 
 slideUpExitBtn.addEventListener("click", function() {
-    slideUpFooter.style.bottom = "-90%";
+    slideUpFooter.style.top = "90%";
 });
