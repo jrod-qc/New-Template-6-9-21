@@ -535,3 +535,17 @@ videoBtn.addEventListener("click", function() {
 videoModalExitBtn.addEventListener("click", function() {
     videoModal.style.display = "none";
 });
+
+// This is the Footer Slide Up Section
+
+var footerFormBtn = document.getElementById("footer-form-btn");
+var slideUpFooter = document.getElementById("slide-up-footer");
+var slideUpExitBtn = document.getElementById("slide-up-exit-btn");
+
+footerFormBtn.addEventListener("click", function() {
+    slideUpFooter.style.bottom = "0";
+});
+
+slideUpExitBtn.addEventListener("click", function() {
+    slideUpFooter.style.bottom = "-90%";
+});
