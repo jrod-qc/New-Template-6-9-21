@@ -1,0 +1,146 @@
+	
+Consultation Slideout:
+
+Form Tab:
+
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+  location = '/thank-you/';
+}, false );
+</script>
+
+
+
+
+
+<div class="main-quote-form">
+      <div class="txt-field">[text* FullName placeholder "Full Name"]</div>
+      <div class="txt-field">[tel* Phone placeholder "Phone Number"]</div>
+      <div class="txt-field">[email* your-email placeholder "Your Email"]</div>
+      <div class="txt-field">[text* ZIP placeholder "ZIP"]</div>
+</div>
+<div class="submit-request-btn">[submit "REQUEST CONSULTATION”]</div>
+
+
+Mail Tab:
+
+From:
+[FullName] | [your-email] <support@domain>
+
+Subject:
+[FullName] - Submitted A Free Whole House Fan Consultation Request
+
+Message Body: 
+
+Full name: [FullName]
+Phone number: [Phone]
+Email: [your-email]
+Address: [ZIP]
+
+
+
+-- 
+This e-mail was sent from a slideout Request Quote submission form Domain
+
+
+
+
+
+
+
+
+
+
+
+Static Form:
+
+Form Tab:
+
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+  location = '/thank-you/';
+}, false );
+</script>
+
+
+
+
+
+<div class="main-quote-form">
+      <div class="txt-field">[text* FullName placeholder "Full Name"]</div>
+      <div class="txt-field">[tel* Phone placeholder "Phone Number"]</div>
+      <div class="txt-field">[email* your-email placeholder "Your Email"]</div>
+      <div class="txt-field">[text* ZIP placeholder "ZIP"]</div>
+</div>
+<div class="submit-request-btn">[submit "REQUEST CONSULTATION”]</div>
+
+Mail Tab:
+
+From:
+[FullName] | [your-email] <support@domain>
+
+Subject:
+[FullName] - Submitted A Free Whole House Fan Consultation Request
+
+Message Body: 
+
+Full name: [FullName]
+Phone number: [Phone]
+Email: [your-email]
+Address: [ZIP]
+
+
+
+-- 
+This e-mail was sent from a static Request Quote submission form Domain
+
+
+
+
+
+
+
+
+
+	
+Request Consultation:
+
+Form Tab:
+
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+  location = '/thank-you/';
+}, false );
+</script>
+
+
+
+
+
+<div class="main-quote-form">
+      <div class="txt-field">[text* FullName placeholder "Full Name"]</div>
+      <div class="txt-field">[tel* Phone placeholder "Phone Number"]</div>
+      <div class="txt-field">[email* your-email placeholder "Your Email"]</div>
+      <div class="txt-field">[text* ZIP placeholder "ZIP"]</div>
+</div>
+<div class="submit-request-btn">[submit "REQUEST CONSULTATION”]</div>
+
+Mail Tab:
+
+From:
+[FullName] | [your-email] <support@domain>
+
+Subject:
+[FullName] - Submitted A Free Whole House Fan Consultation Request
+
+Message Body: 
+
+Full name: [FullName]
+Phone number: [Phone]
+Email: [your-email]
+Address: [ZIP]
+
+
+
+-- 
+This e-mail was sent from a Request Quote submission form Domain
