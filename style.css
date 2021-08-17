@@ -3719,7 +3719,7 @@ input[type="range"]::-moz-range-thumb::before {
         width: 50%;
     }
     .hero-section {
-        height: 60vh;
+        height: 70vh;
     }
     /* Benefits Section */
     .benefit-title>h2 {
