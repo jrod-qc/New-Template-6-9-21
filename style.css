@@ -2687,338 +2687,6 @@ input[type="range"]::-moz-range-thumb::before {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
-    .logo {
-        width: 48%;
-    }
-    .nav-list {
-        width: 48%;
-    }
-    .nav-list-icon>img {
-        width: 70%;
-    }
-    .nav-phone-number {
-        font-size: 1.5em;
-    }
-    .nav-phone-and-text>h2 {
-        font-size: 1.5em;
-    }
-    .hero-section-wrapper-text-content>h1 {
-        font-size: 2em;
-    }
-    .hero-section-wrapper-text-content>p {
-        width: 80%;
-        margin: 0 auto;
-    }
-    #hero-cta-btn {
-        width: 50%;
-    }
-    .hero-section {
-        height: 80vh;
-        background-attachment: scroll !important;
-    }
-    /* Benefits Section */
-    .benefit-title>h2 {
-        width: 55%;
-        font-size: 2em;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-    .benefit-box {
-        width: 90%;
-    }
-    .benefit-box>p {
-        font-size: 1em;
-    }
-    .video-box {
-        margin-top: 30px;
-    }
-    .title-section>h2 {
-        width: 65%;
-        font-size: 2em;
-        text-transform: uppercase;
-        margin: 0 auto;
-        font-weight: 600;
-    }
-    .benefits-list {
-        align-items: flex-start;
-    }
-    .benefits-items>p>img {
-        width: 30%;
-    }
-    .benefits-items:nth-child(4)>p>img {
-        width: 25%;
-    }
-    .benefit-description {
-        padding: 0 15px;
-        font-size: 1em;
-    }
-    .request-consultation-box>.wrapper>.title-section {
-        width: 100%;
-        padding: 0 0 40px 0;
-    }
-    .request-consultation-text-content>p {
-        width: 65%;
-        margin: 0 auto;
-        font-size: 1em;
-    }
-    /* This is the Testimonial Section */
-    .testimonials-items {
-        width: 40%;
-        height: auto;
-    }
-    .testimonial-img-box {
-        width: 50%;
-    }
-    .testimonial-img {
-        width: 80px;
-        height: 80px;
-    }
-    .testimonial {
-        width: 90%;
-    }
-    .testimonial>p {
-        font-size: 1em;
-    }
-    /* This is the Stats Section */
-    .stats-box>.wrapper>.title-section>h2 {
-        width: 50%;
-    }
-    .stats-box>.wrapper {
-        align-items: flex-start;
-    }
-    .stats-box {
-        height: auto;
-        padding: 100px 0;
-        background-attachment: scroll;
-    }
-    .stats-item>img {
-        width: 40%;
-    }
-    .stats-item:nth-child(3)>img {
-        width: 25%;
-    }
-    .stats-item:nth-child(4)>img {
-        width: 30%;
-    }
-    .stats-item>p {
-        width: 90%;
-        font-size: 1em;
-    }
-    /* Benefits Section 2 */
-    .benefits-section-box>.wrapper>.title-section>h2 {
-        width: 40%;
-    }
-    .benefits-section-box>.wrapper>.title-section>p {
-        font-size: 1em;
-    }
-    .benefits-items-box>img {
-        width: 17%;
-    }
-    .benefits-items-box:nth-child(3)>img {
-        width: 30%;
-    }
-    .benefits-items-box:nth-child(4)>img {
-        width: 25%;
-    }
-    .wrapper {
-        align-items: flex-start;
-    }
-    .benefits-items-box>p {
-        font-size: 1em;
-    }
-    /* How it Works Section */
-    .how-it-works-item {
-        width: 90%;
-    }
-    .how-it-works-box>.wrapper>.how-it-works-item>.title-section {
-        padding: 50px 0;
-    }
-    .how-it-works-nums>h2 {
-        font-size: 1.2em;
-        text-transform: uppercase;
-    }
-    /* Products Sections */
-    /* This is the trident section */
-    .trident-item {
-        background-attachment: scroll;
-    }
-    .trident-side {
-        width: 90%;
-    }
-    .tab-nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .tab-nav>ul {
-        width: 100%;
-    }
-    .tab-nav>ul>li {
-        width: 29%;
-        font-size: 1em;
-        padding: 5px 10px;
-    }
-    .whf-table-box>div>table>tbody>tr>td {
-        font-size: 1em;
-    }
-    .trident-side>.title-section {
-        padding: 20px 0;
-    }
-    .disclosure {
-        width: 75%;
-        margin: 0 auto;
-        font-size: 1em;
-    }
-    .trident-side>.title-section>h2 {
-        width: 75%;
-    }
-    .trident-list>li {
-        font-size: 1em;
-    }
-    .trident-side>p {
-        font-size: 1em;
-    }
-    /* This is the Stealth Section */
-    .stealth-item {
-        background-attachment: scroll;
-    }
-    .stealth-side {
-        width: 90%;
-    }
-    .tab-nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .tab-nav>ul {
-        width: 100%;
-    }
-    .tab-nav>ul>li {
-        width: 29%;
-        font-size: 1em;
-        padding: 5px 10px;
-    }
-    .whf-table-box>div>table>tbody>tr>td {
-        font-size: 1em;
-    }
-    .stealth-side>.title-section {
-        padding: 20px 0;
-    }
-    .disclosure {
-        width: 75%;
-        margin: 0 auto;
-        font-size: 1em;
-    }
-    .stealth-side>.title-section>h2 {
-        width: 75%;
-    }
-    .stealth-list>li {
-        font-size: 1em;
-    }
-    .stealth-side>p {
-        font-size: 1em;
-    }
-    /* This is the RF Section */
-    .rf-controller-title-section>.title-section>h2 {
-        width: 55%;
-    }
-    .rf-controller-item {
-        background-attachment: scroll;
-    }
-    .rf-controller-side {
-        width: 90%;
-    }
-    .rf-controller-side>.title-section {
-        padding: 20px 0;
-    }
-    .disclosure {
-        width: 75%;
-        margin: 0 auto;
-        font-size: 1em;
-    }
-    .stealth-side>.title-section>h2 {
-        width: 75%;
-    }
-    .stealth-list>li {
-        font-size: 1em;
-    }
-    .stealth-side>p {
-        font-size: 1em;
-    }
-    .rf-controller-side>img:nth-child(2) {
-        width: 75%;
-    }
-    /* ROI Section */
-    .roi-box>.title-section>h2 {
-        width: 75%;
-    }
-    /* This is the Vs Section */
-    .selection-box-ac>h2,
-    .selection-box>h2 {
-        width: 90%;
-        font-size: 2em;
-    }
-    #comparison-box-qc-wrapper,
-    #comparison-box-ac-wrapper,
-    #ac-kwh-selection {
-        width: 90%;
-    }
-    #fan-selection,
-    #trident-models,
-    #stealth-models,
-    #ac-kwh-selection {
-        font-size: 1em;
-    }
-    .hours-box>h2,
-    .day-title,
-    .month-title,
-    .year-title,
-    #slider-and-results-wrapper>.title-section>h3,
-    #slider-day-results,
-    #slider-month-results,
-    #slider-year-results,
-    #slider-and-results-kwh-wrapper>.title-section>h3,
-    #slider-day-results-ac,
-    #slider-month-results-ac,
-    #slider-year-results-ac {
-        font-size: 1.5em !important;
-    }
-    .comparison-main-box {
-        align-items: flex-start;
-    }
-    /* This is a final form Section */
-    .avoid-spending-item {
-        width: 90%;
-    }
-    .avoid-spending-item>.title-section>h1 {
-        font-size: 2em;
-        text-transform: uppercase;
-    }
-    .avoid-spending-text {
-        font-size: 1.2em;
-    }
-    .avoid-spending-item {
-        padding-top: 30px;
-    }
-    .last-form-submition>.wrapper>.title-section>h1 {
-        font-size: 2em;
-    }
-    #last-form-btn {
-        width: 60%;
-    }
-    .last-form-submition {
-        height: auto;
-        background-attachment: scroll;
-    }
-    .last-form-submition>.wrapper>.title-section {
-        padding: 0;
-    }
-    .footer-bottom-content>ul>li {
-        width: 90%;
-    }
-}
-
 @media only screen and (max-width:1024px) {
     .logo {
         width: 48%;
@@ -3350,7 +3018,340 @@ input[type="range"]::-moz-range-thumb::before {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+    .logo {
+        width: 48%;
+    }
+    .nav-list {
+        width: 48%;
+    }
+    .nav-list-icon>img {
+        width: 70%;
+    }
+    .nav-phone-number {
+        font-size: 1.5em;
+    }
+    .nav-phone-and-text>h2 {
+        font-size: 1.5em;
+    }
+    .hero-section-wrapper-text-content>h1 {
+        font-size: 2em;
+        width: 85%;
+    }
+    .hero-section-wrapper-text-content>p {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #hero-cta-btn {
+        width: 50%;
+    }
+    .hero-section {
+        height: 80vh;
+        background-attachment: scroll !important;
+    }
+    /* Benefits Section */
+    .benefit-title>h2 {
+        width: 55%;
+        font-size: 2em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .benefit-box {
+        width: 90%;
+    }
+    .benefit-box>p {
+        font-size: 1em;
+    }
+    .video-box {
+        margin-top: 30px;
+    }
+    .title-section>h2 {
+        width: 65%;
+        font-size: 2em;
+        text-transform: uppercase;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+    .benefits-list {
+        align-items: flex-start;
+    }
+    .benefits-items>p>img {
+        width: 30%;
+    }
+    .benefits-items:nth-child(4)>p>img {
+        width: 25%;
+    }
+    .benefit-description {
+        padding: 0 15px;
+        font-size: 1em;
+    }
+    .request-consultation-box>.wrapper>.title-section {
+        width: 100%;
+        padding: 0 0 40px 0;
+    }
+    .request-consultation-text-content>p {
+        width: 65%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+    /* This is the Testimonial Section */
+    .testimonials-items {
+        width: 40%;
+        height: auto;
+    }
+    .testimonial-img-box {
+        width: 50%;
+    }
+    .testimonial-img {
+        width: 80px;
+        height: 80px;
+    }
+    .testimonial {
+        width: 90%;
+    }
+    .testimonial>p {
+        font-size: 1em;
+    }
+    /* This is the Stats Section */
+    .stats-box>.wrapper>.title-section>h2 {
+        width: 50%;
+    }
+    .stats-box>.wrapper {
+        align-items: flex-start;
+    }
+    .stats-box {
+        height: auto;
+        padding: 100px 0;
+        background-attachment: scroll;
+    }
+    .stats-item>img {
+        width: 40%;
+    }
+    .stats-item:nth-child(3)>img {
+        width: 25%;
+    }
+    .stats-item:nth-child(4)>img {
+        width: 30%;
+    }
+    .stats-item>p {
+        width: 90%;
+        font-size: 1em;
+    }
+    /* Benefits Section 2 */
+    .benefits-section-box>.wrapper>.title-section>h2 {
+        width: 40%;
+    }
+    .benefits-section-box>.wrapper>.title-section>p {
+        font-size: 1em;
+    }
+    .benefits-items-box>img {
+        width: 17%;
+    }
+    .benefits-items-box:nth-child(3)>img {
+        width: 30%;
+    }
+    .benefits-items-box:nth-child(4)>img {
+        width: 25%;
+    }
+    .wrapper {
+        align-items: flex-start;
+    }
+    .benefits-items-box>p {
+        font-size: 1em;
+    }
+    /* How it Works Section */
+    .how-it-works-item {
+        width: 90%;
+    }
+    .how-it-works-box>.wrapper>.how-it-works-item>.title-section {
+        padding: 50px 0;
+    }
+    .how-it-works-nums>h2 {
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+    /* Products Sections */
+    /* This is the trident section */
+    .trident-item {
+        background-attachment: scroll;
+    }
+    .trident-side {
+        width: 90%;
+    }
+    .tab-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .tab-nav>ul {
+        width: 100%;
+    }
+    .tab-nav>ul>li {
+        width: 29%;
+        font-size: 1em;
+        padding: 5px 10px;
+    }
+    .whf-table-box>div>table>tbody>tr>td {
+        font-size: 1em;
+    }
+    .trident-side>.title-section {
+        padding: 20px 0;
+    }
+    .disclosure {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+    .trident-side>.title-section>h2 {
+        width: 75%;
+    }
+    .trident-list>li {
+        font-size: 1em;
+    }
+    .trident-side>p {
+        font-size: 1em;
+    }
+    /* This is the Stealth Section */
+    .stealth-item {
+        background-attachment: scroll;
+    }
+    .stealth-side {
+        width: 90%;
+    }
+    .tab-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .tab-nav>ul {
+        width: 100%;
+    }
+    .tab-nav>ul>li {
+        width: 29%;
+        font-size: 1em;
+        padding: 5px 10px;
+    }
+    .whf-table-box>div>table>tbody>tr>td {
+        font-size: 1em;
+    }
+    .stealth-side>.title-section {
+        padding: 20px 0;
+    }
+    .disclosure {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+    .stealth-side>.title-section>h2 {
+        width: 75%;
+    }
+    .stealth-list>li {
+        font-size: 1em;
+    }
+    .stealth-side>p {
+        font-size: 1em;
+    }
+    /* This is the RF Section */
+    .rf-controller-title-section>.title-section>h2 {
+        width: 55%;
+    }
+    .rf-controller-item {
+        background-attachment: scroll;
+    }
+    .rf-controller-side {
+        width: 90%;
+    }
+    .rf-controller-side>.title-section {
+        padding: 20px 0;
+    }
+    .disclosure {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+    .stealth-side>.title-section>h2 {
+        width: 75%;
+    }
+    .stealth-list>li {
+        font-size: 1em;
+    }
+    .stealth-side>p {
+        font-size: 1em;
+    }
+    .rf-controller-side>img:nth-child(2) {
+        width: 75%;
+    }
+    /* ROI Section */
+    .roi-box>.title-section>h2 {
+        width: 75%;
+    }
+    /* This is the Vs Section */
+    .selection-box-ac>h2,
+    .selection-box>h2 {
+        width: 90%;
+        font-size: 2em;
+    }
+    #comparison-box-qc-wrapper,
+    #comparison-box-ac-wrapper,
+    #ac-kwh-selection {
+        width: 90%;
+    }
+    #fan-selection,
+    #trident-models,
+    #stealth-models,
+    #ac-kwh-selection {
+        font-size: 1em;
+    }
+    .hours-box>h2,
+    .day-title,
+    .month-title,
+    .year-title,
+    #slider-and-results-wrapper>.title-section>h3,
+    #slider-day-results,
+    #slider-month-results,
+    #slider-year-results,
+    #slider-and-results-kwh-wrapper>.title-section>h3,
+    #slider-day-results-ac,
+    #slider-month-results-ac,
+    #slider-year-results-ac {
+        font-size: 1.5em !important;
+    }
+    .comparison-main-box {
+        align-items: flex-start;
+    }
+    /* This is a final form Section */
+    .avoid-spending-item {
+        width: 90%;
+    }
+    .avoid-spending-item>.title-section>h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    .avoid-spending-text {
+        font-size: 1.2em;
+    }
+    .avoid-spending-item {
+        padding-top: 30px;
+    }
+    .last-form-submition>.wrapper>.title-section>h1 {
+        font-size: 2em;
+    }
+    #last-form-btn {
+        width: 60%;
+    }
+    .last-form-submition {
+        height: auto;
+        background-attachment: scroll;
+    }
+    .last-form-submition>.wrapper>.title-section {
+        padding: 0;
+    }
+    .footer-bottom-content>ul>li {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
     .rebate-modal-minimized-container-2 {
         width: 10%;
     }
@@ -3378,6 +3379,7 @@ input[type="range"]::-moz-range-thumb::before {
     }
     .hero-section-wrapper-text-content>h1 {
         font-size: 2em;
+        width: 95%;
     }
     .hero-section-wrapper-text-content>p {
         width: 80%;
@@ -3387,7 +3389,7 @@ input[type="range"]::-moz-range-thumb::before {
         width: 50%;
     }
     .hero-section {
-        height: 60vh;
+        height: 70vh;
         background-attachment: scroll;
     }
     /* Benefits Section */
