@@ -585,32 +585,17 @@ videoModalExitBtn.addEventListener("click", function() {
     videoModal.style.display = "none";
 });
 
-// This is the Footer Slide Up Section
 
-var footerFormBtn = document.getElementById("footer-form-btn");
-var slideUpFooter = document.getElementById("slide-up-footer");
-var slideUpExitBtn = document.getElementById("slide-up-exit-btn");
-
-footerFormBtn.addEventListener("click", function() {
-    slideUpFooter.style.top = "0";
-});
-
-slideUpExitBtn.addEventListener("click", function() {
-    slideUpFooter.style.top = "90%";
-});
 
 
 setTimeout(function() {
     $(".optionTwo").css("display", "flex");
-}, 3000)
+}, 3000);
 
 
 
 
 function rebateModal() {
-    // $(".rebate-modal-minimized-container").css("display", "none");
-    // $(".rebate-modal-minimized-container-2").css("display", "block");
-    // $(".optionTwo").css("display", "block");
 
     $(".rebate-btn-2 a").click(() => {
         $(".rebate-modal-form-container-2").css("display", "flex");
