@@ -616,11 +616,13 @@ function rebateModal() {
     $(".rebate-modal-popup-exit-btn-box-2 i").click(() => {
         $(".rebate-modal-popup-container-2").css("display", "none");
         $(".rebate-modal-minimized-container-2").css("left", "0px");
+        $(".rebate-modal-minimized-container-small-2").css("left", "0px");
     })
 
     $(".rebate-modal-minimized-btn-2 a").click(() => {
         $(".rebate-modal-popup-container-2").css("display", "flex");
         $(".rebate-modal-minimized-container-2").css("left", "-220px");
+        $(".rebate-modal-minimized-container-small-2").css("left", "-50px");
     })
 }
 
