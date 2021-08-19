@@ -583,7 +583,14 @@ videoBtn.addEventListener("click", function() {
 
 videoModalExitBtn.addEventListener("click", function() {
     videoModal.style.display = "none";
+    $('iframe').attr('src', $('iframe').attr('src'));
 });
+
+
+$("#video-modal-box").click(() => {
+    videoModal.style.display = "none";
+    $('iframe').attr('src', $('iframe').attr('src'));
+})
 
 
 
